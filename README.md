@@ -1,0 +1,2 @@
+Volcanic Blog
+Southern Luzon

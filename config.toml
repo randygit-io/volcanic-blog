@@ -1,0 +1,36 @@
+baseurl = "https://www.example.org/"
+title = "Pilipinuts"
+copyright = "Copyright &copy; 2019 - Sophia Orduna"
+canonifyurls = true
+theme = "beautifulhugo"
+themesDir = "./themes/"
+
+paginate = 3
+
+summaryLength = 30
+enableEmoji = true
+pygmentsCodeFences = true
+
+[author]
+    name = ""
+    facebook = "pilipinutsph"
+    twitter = "ds_says"
+    instagram = "pilipinutsph"
+
+[params]
+    tagline = "Pili nuts, why it is good for you!"
+
+[[menu.main]]
+    name = "Home" #Name in the navigation bar
+    weight = 10 #The larger the weight, the more on the right this item will be
+    url = "/" #URL address
+
+[[menu.main]]
+    name = "Posts"
+    weight = 20
+    url = "/posts/"
+
+[[menu.main]]
+    name = "About"
+    weight = 20
+    url = "/about/"
